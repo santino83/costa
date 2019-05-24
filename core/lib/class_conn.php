@@ -1,8 +1,8 @@
 <?php
-namespace core\lib;
-use PDO;
 
-require_once('class_config.php');
+namespace Costa;
+
+use PDO;
 
 class class_conn extends class_config{
 
@@ -10,7 +10,7 @@ class class_conn extends class_config{
 
     public function __construct(){
 
-        $this->Crea_Connection_string();
+        //$this->Crea_Connection_string();
     }
 
 
@@ -42,5 +42,3 @@ class class_conn extends class_config{
         return $this->conn;
     }
 }
-
-?>

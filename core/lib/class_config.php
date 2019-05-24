@@ -1,6 +1,6 @@
 <?php
 
-namespace core\lib;
+namespace Costa;
 
 class class_config{
 

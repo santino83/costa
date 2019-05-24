@@ -1,5 +1,5 @@
 <?php
-spl_autoload_register(function($class){
+/*spl_autoload_register(function($class){
 
     $class =__DIR__."/".$class.'.php';
 
@@ -7,5 +7,4 @@ spl_autoload_register(function($class){
 
     require_once($class);
 });
-
-?>
+*/
