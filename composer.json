@@ -1,0 +1,17 @@
+{
+    "name": "costa/demo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Giorgio Maria Santini",
+            "email": "gsantini@voiptech.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Costa\\": "core/lib"}
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    }
+}
