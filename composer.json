@@ -8,7 +8,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Costa\\": "core/lib"}
+        "psr-4": {"Costaplus\\": "core/lib"}
     },
     "require": {},
     "require-dev": {
