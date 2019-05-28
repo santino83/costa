@@ -1,0 +1,13 @@
+app:
+    name: 'My App'
+    version: 1.0.0
+db:
+    name: mydb
+    port: 3306
+    foo: bar
+ldap:
+    host: localhost
+    username: myldapusername
+imap:
+    host: imap.gmail.com
+    port: '993'
